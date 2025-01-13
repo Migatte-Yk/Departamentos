@@ -26,7 +26,7 @@ Para ejecutar este proyecto, necesitas contar con las siguientes herramientas:
 
 ### Instalación y Configuración
 1. **Clonar el repositorio**:
-   git clone https://github.com/Migatte-Yk/Aplicacion-prueba.git
+   git clone https://github.com/Migatte-Yk/Departamentos.git
 
 2. **Acceder al directorio del proyecto**:
 cd crud
