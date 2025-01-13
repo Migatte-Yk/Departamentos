@@ -2,6 +2,13 @@
 
 Este proyecto es una aplicación para la administración de departamentos y municipios de Colombia. Permite realizar las operaciones básicas de CRUD (Crear, Leer, Actualizar, Eliminar) tanto para los departamentos como para los municipios, con funcionalidades como la creación de nuevos registros, la visualización de listas y la edición o eliminación de registros existentes.
 
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/index%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/listar%20departamentos%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/listar%20municipios%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/crear%20departamento%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/crear%20municipio%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/modificar%20departamento%20yokju.PNG)
+![image alt](https://github.com/Migatte-Yk/Departamentos/blob/main/modificar%20municipio%20yokju.PNG)
 ---
 
 ## Requisitos
