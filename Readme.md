@@ -39,28 +39,40 @@ Deberas crear la base de datos SQL, ejecuta en tu MySQL (o el que estes usando) 
 
 - 1. Crear Base de Datos:
 
-  - CREATE DATABASE colombia;
+   CREATE DATABASE colombia;
 
-  - USE colombia;
+   USE colombia;
 
 - 2. Crear Tabla Departamentos:
 
 CREATE TABLE DEPARTAMENTO (
+
     ID_DEPARTAMENTO BIGINT AUTO_INCREMENT PRIMARY KEY,
+    
     NOMBRE VARCHAR(100) NOT NULL,
+    
     GOBERNADOR VARCHAR(50)NOT NULL
+    
 );
 
 - 3. Crear Tabla Municipios:
 
 CREATE TABLE MUNICIPIO (
+
     ID_MUNICIPIO BIGINT AUTO_INCREMENT PRIMARY KEY,
+    
     NOMBRE VARCHAR(100) NOT NULL,
+    
     ID_DEPARTAMENTO BIGINT NOT NULL,
+    
     CONSTRAINT FK_DEPARTAMENTO
+    
         FOREIGN KEY (ID_DEPARTAMENTO) 
+        
         REFERENCES DEPARTAMENTO(ID_DEPARTAMENTO)
+        
         ON UPDATE CASCADE
+        
         ON DELETE CASCADE);
 
 5. **Configurar la base de datos en el proyecto**: 
