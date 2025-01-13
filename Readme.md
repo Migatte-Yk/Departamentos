@@ -78,4 +78,4 @@ Abre tu IDE de preferencia y busca el archivo aplication.properties ahi deberas 
 - spring.datasource.username= tu_usuario
 - spring.datasource.password= tu_contraseña 
 
-asegurate de cambiar el puerto (3306) ya que puede variar.
+asegurate de cambiar el puerto (3306) por el que tengas en tu equipo ya que puede variar.
