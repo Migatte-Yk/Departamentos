@@ -14,7 +14,7 @@ Para ejecutar este proyecto, necesitas contar con las siguientes herramientas:
 - **Base de datos**:
   - MySQL o cualquier otra base de datos compatible con JDBC
   - Configuración adecuada del driver JDBC en el archivo application.properties.
-  **IDE**
+-**IDE**:
   El IDE recomendado es Apcahe Netbeans aunque puedes usar otros como IntelliJ IDEA.
 
 ### Instalación y Configuración
