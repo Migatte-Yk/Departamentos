@@ -30,12 +30,13 @@ mvm clean install
 4. **Scripts Base de datos**:
 Deberas crear la base de datos SQL, ejecuta en tu MySQL (o el que estes usando) los siguientes scripts en orden:
 
-- -- 1. Crear Base de Datos:
+- 1. Crear Base de Datos:
 
-CREATE DATABASE colombia;
-USE colombia;
+  - CREATE DATABASE colombia;
 
-- -- 2. Crear Tabla Departamentos:
+  - USE colombia;
+
+- 2. Crear Tabla Departamentos:
 
 CREATE TABLE DEPARTAMENTO (
     ID_DEPARTAMENTO BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -43,7 +44,7 @@ CREATE TABLE DEPARTAMENTO (
     GOBERNADOR VARCHAR(50)NOT NULL
 );
 
-- -- 3. Crear Tabla Municipios:
+- 3. Crear Tabla Municipios:
 
 CREATE TABLE MUNICIPIO (
     ID_MUNICIPIO BIGINT AUTO_INCREMENT PRIMARY KEY,
