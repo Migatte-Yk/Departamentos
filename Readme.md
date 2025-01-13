@@ -14,7 +14,7 @@ Para ejecutar este proyecto, necesitas contar con las siguientes herramientas:
 - **Base de datos**:
   - MySQL o cualquier otra base de datos compatible con JDBC
   - Configuración adecuada del driver JDBC en el archivo application.properties.
--**IDE**:
+- **IDE**:
   El IDE recomendado es Apcahe Netbeans aunque puedes usar otros como IntelliJ IDEA.
 
 ### Instalación y Configuración
@@ -30,18 +30,21 @@ mvm clean install
 4. **Scripts Base de datos**:
 Deberas crear la base de datos SQL, ejecuta en tu MySQL (o el que estes usando) los siguientes scripts en orden:
 
-- -- 1. Crear Base de Datos
+- -- 1. Crear Base de Datos:
+
 CREATE DATABASE colombia;
 USE colombia;
 
-- -- 2. Crear Tabla Departamentos
+- -- 2. Crear Tabla Departamentos:
+
 CREATE TABLE DEPARTAMENTO (
     ID_DEPARTAMENTO BIGINT AUTO_INCREMENT PRIMARY KEY,
     NOMBRE VARCHAR(100) NOT NULL,
     GOBERNADOR VARCHAR(50)NOT NULL
 );
 
-- -- 3. Crear Tabla Municipios
+- -- 3. Crear Tabla Municipios:
+
 CREATE TABLE MUNICIPIO (
     ID_MUNICIPIO BIGINT AUTO_INCREMENT PRIMARY KEY,
     NOMBRE VARCHAR(100) NOT NULL,
